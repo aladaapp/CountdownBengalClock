@@ -3,10 +3,14 @@ CountdownBengalClock show the date and time in Bengali font. Your simple and bea
 
 ## Advertisement
 > `ads size 331×42`
+<img src="assets/advertisement/ads/images/placeholder_331x42.jpg">
+
 ```
 $ https://aladaapp.github.io/CountdownBengalClock/assets/advertisement/ads/ads.html
 ```
 > `ads size 300×250`
+<img src="assets/advertisement/ads/images/placeholder_300x250.gif">
+
 ```
 $ https://aladaapp.github.io/CountdownBengalClock/assets/advertisement/ads/ads_300by250.html
 ```
