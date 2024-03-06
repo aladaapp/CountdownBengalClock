@@ -1,0 +1,33 @@
+.bg{
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * 331×42 Banner ads CSS
+*/
+.ads-layout{
+  background: #000;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.ads-image_view{
+  width: 331px;
+  height: 42px;
+}
+
+/*
+ * 300x250 Banner ads CSS
+*/
+.ads-layout-300by250{
+  background: #000;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.ads-image_view-300by250{
+  width: 300px;
+  height: 250px;
+}
