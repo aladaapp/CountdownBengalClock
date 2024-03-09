@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>বাঙাল ঘড়ি (Countdown Bengal Clock)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/icon_512x512.png" type="image/gif">
+</head>
+<body style="background-color:#000;">
+  
+  <!-- logo, names & description -->
+  <center>
+	<div style="padding-top:20px;">
+	   <img alt="icon" src="assets/icon_512x512.png" width="80" height="80"></img>
+	</div>
+	
+	<h4 style="color:#D1DE4C; padding-top:5px;">বাঙাল ঘড়ি (Countdown Bengal Clock)</h4>
+	<p style="color:#fff;">Your simple and beautiful bangla clock for Android. Countdown bangla clock show the date and time in Bengali font.</p>
+  </center>
+  
+  <!-- fun 2-->
+  
+<div>
+<center>
+    <div id="notification_panel">
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-5 tm-1 tm-2">
+        <div class="btn-group btn-group-sm btn-group-toggle mb-2 mt-2" data-toggle="buttons">
+		    <label class="btn btn-secondary active">
+                <input type="radio" name="lang" id="lang-bn" value="bn" autocomplete="off" checked> বাংলা
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="lang" id="lang-en" value="en" autocomplete="off"> English
+            </label>
+        </div>
+
+        <div class="card" style="background-color:#CACAD0;"> <!-- table bg color-->
+            <div class="card-header" style="background-color:#161517;">
+                <h3 class="card-title mb-1" id="table_header_title" style="color:#0AFF86; text-align: center;">Islamic
+                    prayer times</h3>
+				<p id="currentDateTime" style="color:#D1DE4C;"></p>
+            </div>
+
+            <div class="card-body">
+                <div id="divShowPrayTimes" style="background-color:#141218; color:#CAC4D0;"></div>
+                <!-- salah text color-->
+            </div>
+        </div>
+        <small class="text-muted p-2" id="footer_note">* Highlited row define the current
+            waqt</small>
+    </div>
+	</center>
+</div>
+
+  <!-- go google play-story -->
+  <div style="padding-top:15px;">
+    <center>
+      <a href="https://play.google.com/store/apps/details?id=com.aladaapp.countdownbengalclock"><img alt="Get it on Google Play" 
+	src="https://raw.githubusercontent.com/aladaapp/aladaapp/8a998377f81dc355319c3f8dd6ae3c7de6c71013/assets/svg/badge/badge_play_story_p001_202402.svg" width="170" height="70"></a>
+      <a href="https://play.google.com/store/apps/details?id=com.aladaapp.countdownbengalclock"><img alt="Get it on Google Play" 
+	src="https://raw.githubusercontent.com/aladaapp/aladaapp/2768f4434ff098a5fddd982dcdb79c4e53d4f238/assets/svg/badge/badge_app_store_p001_202401.svg" style="padding-left:5px;" width="170" height="70"></a>
+    </center>
+  </div>
+
+   <!-- footer scripts -->
+   <footer>
+		<div style="padding-bottom:30px;">
+		  <center>
+		   <h5 class="m-0" style="color:#D1DE4C;">Developer by <span class="text-danger">&hearts;</span> <a href="https://freelancermustakin.github.io" target="_blank" style="color:#fff;">@freelancermustakin</a></h5>
+		   </center>
+		</div>
+   </footer>
+
+<!-- Bootstrap scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<!-- <script type="text/javascript" src="js/bootstrap/jquery-3.3.1.slim.min.js"></script> -->
+<script type="text/javascript" src="js/bootstrap/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/moment-with-locales.min.js"></script>
+<script type="text/javascript" src="js/PrayTimes.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
